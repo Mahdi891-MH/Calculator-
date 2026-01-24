@@ -21,7 +21,6 @@ function def_operation(oprn){
     operation = oprn;
 }
 function dlt(){
-    var value = document.getElementById("calc_area").innerHTML;
-    var index = value.length-1;
+    var value = document.getElementById("calc_area").innerHTML;
     document.getElementById("calc_area").innerHTML = value.slice(0, -1);
 }
